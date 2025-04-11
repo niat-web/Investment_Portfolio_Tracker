@@ -4,7 +4,7 @@
 This project provides a simple, client-side investment portfolio tracker using JavaScript, HTML, and CSS with Bootstrap for styling. It allows users to add, track, and delete investment holdings, calculating total portfolio value, gain/loss, and a simplified annual return. Data is persisted using local storage. The application also features a dark mode toggle and form validation. While a real API is not included for live stock data, the code is structured to accommodate one with a placeholder function that simulates API data retrieval.
 
 ## Output
-<iframe src="https://github.com/niat-web/Investment_Portfolio_Tracker" height="1000" width="300" title="Investment_Portfolio_Tracker"></iframe>
+<iframe src="https://niat-web.github.io/Investment_Portfolio_Tracker/" height="1000" width="300" title="Investment_Portfolio_Tracker"></iframe>
 
 ## Project Requirements
 **Technologies:** HTML, CSS, JavaScript, Bootstrap
@@ -42,3 +42,6 @@ This project provides a simple, client-side investment portfolio tracker using J
 | API | Endpoint | Description |
 |-----|----------|-------------|
 | Simulated Stock Price API | N/A (Simulated) | The `fetchCurrentPrice` function simulates fetching the current stock price for a given ticker symbol. It returns a random price after a short delay, mimicking an API call.  **Note:** This is a placeholder and should be replaced with a real stock price API for production use. |
+
+      // Simulate an API call with a random price
+        const randomPrice = Math.random() * 200 + 50; // Random price between $50 and $250
